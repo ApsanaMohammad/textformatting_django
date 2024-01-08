@@ -35,7 +35,7 @@
 
 <div class="container">
     <h1 class="text-center mt-3">Text Formatting</h1>
-    <form action="removepunc" method="get">
+    <form action="removepunc" method="post"> {% csrf_token %}
         <div class="form-group">
             <textarea class="form-control" name="t" rows="5"></textarea>
         </div>
